@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrizEspiral.Application", "src\MatrizEspiral.Application\MatrizEspiral.Application.csproj", "{4A5083A8-AD09-4E15-BD25-7142F9F096F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrizEspiral.Domain", "src\MatrizEspiral.Domain\MatrizEspiral.Domain.csproj", "{9CA00ACA-77AA-45D0-AC9A-42924E888F22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrizEspiral.Test", "test\MatrizEspiral.Test\MatrizEspiral.Test.csproj", "{07A5AC9A-F473-44F1-A854-DC1BA2991F09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A5083A8-AD09-4E15-BD25-7142F9F096F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A5083A8-AD09-4E15-BD25-7142F9F096F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A5083A8-AD09-4E15-BD25-7142F9F096F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A5083A8-AD09-4E15-BD25-7142F9F096F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CA00ACA-77AA-45D0-AC9A-42924E888F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA00ACA-77AA-45D0-AC9A-42924E888F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA00ACA-77AA-45D0-AC9A-42924E888F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA00ACA-77AA-45D0-AC9A-42924E888F22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07A5AC9A-F473-44F1-A854-DC1BA2991F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A5AC9A-F473-44F1-A854-DC1BA2991F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A5AC9A-F473-44F1-A854-DC1BA2991F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A5AC9A-F473-44F1-A854-DC1BA2991F09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BACF9CA5-DE40-4AEA-BFB0-6DFFCAC4E2B7}
+	EndGlobalSection
+EndGlobal
