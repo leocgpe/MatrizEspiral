@@ -8,9 +8,9 @@ namespace MatrizEspiral.Application
     {
         static void Main(string[] args)
         {
-            //midificação
-            int qtdLinhas = 10;
-            int qtdColunas = 8;
+            //Modificação online
+            int qtdLinhas = 15;
+            int qtdColunas = 22;
             int[] intArgs = args.Select(x => int.Parse(x)).ToArray();
 
             if(intArgs.Length == 2)
