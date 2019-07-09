@@ -41,6 +41,7 @@ namespace MatrizEspiral.Application
 
                 Console.WriteLine();
             }
+            Console.WriteLine("Alteração na impressão");
         }
 
     }
